@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .quote-text {
+    @apply text-lg md:text-xl leading-relaxed;
+  }
+  
+  .quote-author {
+    @apply text-sm md:text-base font-medium;
+  }
+}
